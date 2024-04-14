@@ -19,9 +19,21 @@ steps:
   displayName: 'Document Git History'
 
 - script: |
+    echo "Restoring dependencies..."
+    dotnet restore
+  displayName: 'Restore NuGet Packages'
+
+- script: |
     echo "Building project..."
-    dotnet build
+    dotnet build --configuration Release --verbosity detailed
   displayName: 'Build .NET Core Project'
+  continueOnError: false # Ensure that the build stops on error
+
+- script: |
+    echo "Building project..."
+    dotnet build --configuration Release --verbosity detailed
+  displayName: 'Build .NET Core Project'
+  continueOnError: false # Ensure that the build stops on error
 
 - task: PublishBuildArtifacts@1
   inputs:
