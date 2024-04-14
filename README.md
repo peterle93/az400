@@ -22,7 +22,6 @@ Before you begin, ensure you have met the following requirements:
 
 To install SimpleWebApp, follow these steps:
 
-```bash
 git clone https://github.com/yourusername/SimpleWebApp.git
 cd SimpleWebApp
 
