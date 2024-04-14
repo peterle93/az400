@@ -22,28 +22,43 @@ Before you begin, ensure you have met the following requirements:
 
 To install SimpleWebApp, follow these steps:
 
+```
 git clone https://github.com/yourusername/SimpleWebApp.git
 cd SimpleWebApp
+```
 
 # Set up the backend
+
+```
 cd backend
 pip install -r requirements.txt
 python init_db.py
+```
 
 # Set up the frontend
+
+```
 cd ../frontend
 npm install
+```
 
 ## Usage
+
 To use SimpleWebApp, follow these steps:
 
 # Start the backend server
+
+```
 cd backend
 python app.py
+```
 
 # In a new terminal, start the frontend
+
+```
 cd frontend
 npm start
+```
 
 Access the application through http://localhost:3000 in your web browser.
 
