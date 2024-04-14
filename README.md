@@ -35,7 +35,7 @@ python init_db.py
 cd ../frontend
 npm install
 
-##Usage
+## Usage
 To use SimpleWebApp, follow these steps:
 
 # Start the backend server
@@ -48,21 +48,23 @@ npm start
 
 Access the application through http://localhost:3000 in your web browser.
 
-Contributing to SimpleWebApp
+## Contributing to SimpleWebApp
+
 To contribute to SimpleWebApp, follow these steps:
 
-Fork this repository.
-Create a branch: git checkout -b <branch_name>.
-Make your changes and commit them: git commit -m '<commit_message>'
-Push to the original branch: git push origin <project_name>/<location>
-Create the pull request.
-Alternatively, see the GitHub documentation on creating a pull request.
+- Fork this repository.
+- Create a branch: git checkout -b <branch_name>.
+- Make your changes and commit them: git commit -m '<commit_message>'
+- Push to the original branch: git push origin <project_name>/<location>
+- Create the pull request.
+- Alternatively, see the GitHub documentation on creating a pull request.
 
-Contributors
+## Contributors
+
 Thanks to the following people who have contributed to this project:
 
-@yourusername
-@contributor2
+- @yourusername
+- @contributor2
 
 
 ### Explanation of the README Sections
