@@ -32,5 +32,6 @@ steps:
     projects: '**/*.csproj' # Replace with the correct pattern to match your project files
     arguments: '--configuration Release' # Optional arguments
 
-- script: docfx build $(Build.SourcesDirectory)/az400/docfx.json
+- script: docfx build $(Build.SourcesDirectory)/docfx.json
   displayName: 'Generate Documentation'
+
